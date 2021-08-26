@@ -1,0 +1,5 @@
+default=0
+timeout=10
+title=EOS
+kernel /boot/kernel.elf
+
