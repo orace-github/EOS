@@ -2,8 +2,11 @@
 > ### Simple i386 based kernel build from scracth for learning purpose
 
 ## Requirements
-> ### GNU gcc, Qemu for virtualisation, Genisoimage
+> * #### GNU GCC
+> * #### QEMU for virtualisation
+> * #### Genisoimage
 
-## Buid
-''' Bash
-sudo 
+## Buid & Run
+````Bash
+sudo apt-get install -y build-essentials qemu-i386 
+sudo make vm
